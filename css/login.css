@@ -1,0 +1,104 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    text-transform: capitalize;
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background:linear-gradient(90deg,white,rgba(0, 0, 255, 0.913));
+    
+}
+.login{
+    width: 30%;
+    height: 50vh;
+    margin: 5% 35%;
+    background:linear-gradient(90deg,white,rgba(0, 0, 255, 0.913));
+    border-radius: 20px;
+}
+.login h1{
+    text-align: center;
+} 
+.input1{
+    background-color: rgba(128, 128, 128, 0.251);
+    color: rgba(0, 0, 0, 0.692);
+}
+.form{
+    font-size: larger;
+    margin-left: 15%;
+
+}
+.submit{
+    width: 100%;
+    margin-left: 10%;
+    border: none;
+    height: 5vh;
+    border-radius: 5px;
+}
+.newacc{
+    width: 50vw;
+}
+.btns{
+    width: 65%;
+    display: flex;
+    margin-left: 18%;
+}
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+    .login{
+        margin-left: 10%;
+        width: 80%;
+        height: 50vh;
+        background:linear-gradient(90deg,white,rgba(0, 0, 255, 0.913));
+        border-radius: 20px;
+        
+    }
+    .input1{
+        width: 90%;
+        background-color: rgba(128, 128, 128, 0.251);
+        color: rgba(0, 0, 0, 0.692);
+    }
+    .login h1{
+        text-align: center;
+    } 
+    .submit{
+
+        width: 50%;
+        border: none;
+        margin-left: 0%;
+        border-radius: 5px;
+    }
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .login{
+        margin-left: 10%;
+        width: 80%;
+        height: 50vh;
+        background:linear-gradient(90deg,white,rgba(0, 0, 255, 0.913));
+        border-radius: 20px;
+        
+    }
+
+    .login h1{
+        text-align: center;
+    } 
+    .submit{
+
+        width: 50%;
+        border: none;
+        margin-left: 0%;
+        border-radius: 5px;
+    }
+    .input1{
+        width: 90%;
+        background-color: rgba(128, 128, 128, 0.251);
+        color: rgba(0, 0, 0, 0.692);
+    }
+
+}

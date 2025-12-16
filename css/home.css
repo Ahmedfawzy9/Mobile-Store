@@ -1,0 +1,83 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    text-transform: capitalize;
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.imglogo {
+    width: 100%;
+    height: 40px;
+    border-radius: 40%;
+}
+
+ul {
+    width: 100%
+}
+
+li {
+    width: 50%;
+    text-align: center;
+}
+
+
+main {
+    width: 100%;
+    height: 100vh;
+    background-image: url(Background5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+main .layer {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.548);
+}
+
+main h1 {
+    text-align: center;
+    font-size: 55px;
+    color: white;
+    margin-top: 13%;
+    position: relative;
+    z-index: 1000;
+}
+
+main span {
+    display: block;
+    background-color: orange;
+    width: 5%;
+    height: 0.5vh;
+    position: relative;
+    z-index: 1500;
+    margin-left: 48%;
+}
+
+main p {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    position: relative;
+    z-index: 1200;
+}
+
+main button {
+    width: 12%;
+    height: 8vh;
+    margin-left: 45%;
+    background-color: orangered;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    z-index: 1300;
+    cursor: pointer;
+}
